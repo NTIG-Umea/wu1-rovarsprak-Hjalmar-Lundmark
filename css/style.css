@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     margin: 0;
+    background-color: lightgrey;
+    color: black;
 }
 
 body {
@@ -27,8 +29,11 @@ main {
 }
 
 #message {
-    height: 14rem;
+    min-height: 14rem;
     overflow-y: hidden;
+    background-color: white;
+    color: black;
+    outline-style: groove;
 }
 #message > p {
     word-break: break-all;
